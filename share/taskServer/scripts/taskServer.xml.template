@@ -1,0 +1,14 @@
+<application>
+<name>taskServer App</name>
+    <module>
+        <name>cartesianServer</name>
+        <node>localhost</node>
+    </module>
+
+    <module>
+         <name>taskServer</name>
+         <node>localhost</node>
+    </module>
+
+</application>
+
