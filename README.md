@@ -1,4 +1,4 @@
-# asibot-tasklib-legacy
+# legacy-asibot-tasklib
 Asibot TaskLib (legacy code)
 
 From https://github.com/roboticslab-uc3m/asibot-main/issues/40
