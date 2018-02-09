@@ -4,7 +4,5 @@
 # Order may be important here
 
 add_subdirectory(asibotTasks)
-add_subdirectory(kinectPxToReal)
 add_subdirectory(taskServer)
-add_subdirectory(robotDraw)
 
