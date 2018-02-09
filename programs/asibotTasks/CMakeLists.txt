@@ -2,8 +2,6 @@
 
 cmake_minimum_required(VERSION 2.6)
 
-IF (ENABLE_asibotTasks)
-
 set(KEYWORD "asibotTasks")
 
 # Find YARP.  Point the YARP_DIR environment variable at your build.
@@ -33,5 +31,4 @@ target_link_libraries(testTaskMakeUp ${YARP_LIBRARIES} CartesianClientLib)
 add_executable(p0easySolution p0easySolution.cpp TaskCatchTool.cpp TaskNavigate.cpp TaskSlidePallete.cpp TaskMakeUp.cpp)
 target_link_libraries(p0easySolution ${YARP_LIBRARIES} CartesianClientLib)
 
-ENDIF (ENABLE_asibotTasks)
 
